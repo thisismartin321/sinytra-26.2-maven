@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.sinytra.forgified-fabric-api</groupId>
+  <artifactId>fabric-gametest-api-v1</artifactId>
+  <versioning>
+    <latest>4.0.21+905131659e</latest>
+    <release>4.0.21+905131659e</release>
+    <versions>
+      <version>4.0.21+905131659e</version>
+    </versions>
+    <lastUpdated>20261004212824</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-api-catalog",
+    "version": "0.159.0+26.2+4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "fabric-api-catalog-0.159.0+26.2+4.0.0.toml",
+          "url": "fabric-api-catalog-0.159.0+26.2+4.0.0.toml",
+          "size": 6031,
+          "sha512": "91c12b18d2679c02e8819d913313c80d5dd900b90e9f7cf1ef6dda7bb4b7fc16a0bf5fb74fc83cf039edfabc6eb00d3da780ecd27d28e1cfbfea52e8bb0ddabb",
+          "sha256": "1ff994088e313a2a355f557e24cde3c71ebbf1c6febdc8e6184bee076361708c",
+          "sha1": "6f52c45925256177fd1e4329f84390a4cd07b357",
+          "md5": "0cada7b911420f35c4848ac2e8706d20"
+        }
+      ]
+    }
+  ]
+}

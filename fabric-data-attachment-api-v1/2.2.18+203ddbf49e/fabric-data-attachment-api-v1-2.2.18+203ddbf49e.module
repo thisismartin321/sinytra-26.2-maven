@@ -1,0 +1,181 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-data-attachment-api-v1",
+    "version": "2.2.18+203ddbf49e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-entity-events-v1",
+          "version": {
+            "requires": "5.0.5+306652609e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-object-builder-api-v1",
+          "version": {
+            "requires": "24.1.0+306652609e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "6.3.3+d89c76349e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e.jar",
+          "url": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e.jar",
+          "size": 61817,
+          "sha512": "7e9d696c677c48096faa64dd54680528bcc64356550a0e3bd7ecfbf01873457382e136ba56c69087778738741056ceb30180e341915480bf9b8ef1ab3f4d798f",
+          "sha256": "1a61509738744e0c0603894ff1bfcb0f8e4851c58ec4db59cb8833c0c194e0ab",
+          "sha1": "9bbae5a4475d3041147d0338cb3f2e12a64cb16c",
+          "md5": "52d272edecf0208335c65f2f2264febf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-entity-events-v1",
+          "version": {
+            "requires": "5.0.5+306652609e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-object-builder-api-v1",
+          "version": {
+            "requires": "24.1.0+306652609e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-networking-api-v1",
+          "version": {
+            "requires": "6.3.3+d89c76349e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e.jar",
+          "url": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e.jar",
+          "size": 61817,
+          "sha512": "7e9d696c677c48096faa64dd54680528bcc64356550a0e3bd7ecfbf01873457382e136ba56c69087778738741056ceb30180e341915480bf9b8ef1ab3f4d798f",
+          "sha256": "1a61509738744e0c0603894ff1bfcb0f8e4851c58ec4db59cb8833c0c194e0ab",
+          "sha1": "9bbae5a4475d3041147d0338cb3f2e12a64cb16c",
+          "md5": "52d272edecf0208335c65f2f2264febf"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e-accesstransformer.cfg",
+          "url": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e-accesstransformer.cfg",
+          "size": 0,
+          "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    },
+    {
+      "name": "interfaceInjectionDataElements",
+      "attributes": {
+        "org.gradle.category": "interfaceinjection"
+      },
+      "files": [
+        {
+          "name": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e-interfaceinjection.json",
+          "url": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e-interfaceinjection.json",
+          "size": 645,
+          "sha512": "c98a7ff3f441703b4581160dc6d2f4242cd3a8a93f16beda3670ee489705b7d059fe2e04a610931d596678d3cc90b4f383260e65ebd4b868ead6496842fb358e",
+          "sha256": "0171d5d40b4170ca7ca3800eec50c6762a2af7269caf00989f69e79efcfe9015",
+          "sha1": "0ab9455c0f0ea0bd467eb593887906df06ce58cf",
+          "md5": "83991cde8a216797cb3c10a41dfc6d29"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e-sources.jar",
+          "url": "fabric-data-attachment-api-v1-2.2.18+203ddbf49e-sources.jar",
+          "size": 41949,
+          "sha512": "c104725a5b7351211ddd05465ef9c56a32c73118c8cd166e5aec4935796cdb3b3797de572b84dad9b1baf81808134f66f0f0c5cd240ff80f98faab1f2e908a10",
+          "sha256": "90bb98d3cd77e4c30f07e21419871ca1f70c200feacdcc2d61d07e763853a896",
+          "sha1": "95621875835829a81cf417dd1640a88bed946dcc",
+          "md5": "366de3e266b0bec82742b0a3d6286c47"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.sinytra.forgified-fabric-api</groupId>
+  <artifactId>fabric-permission-api-v1</artifactId>
+  <versioning>
+    <latest>1.0.5+b8759c2f9e</latest>
+    <release>1.0.5+b8759c2f9e</release>
+    <versions>
+      <version>1.0.5+b8759c2f9e</version>
+    </versions>
+    <lastUpdated>20261004212825</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-key-mapping-api-v1",
+    "version": "2.0.5+ce13d5789e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-key-mapping-api-v1-2.0.5+ce13d5789e.jar",
+          "url": "fabric-key-mapping-api-v1-2.0.5+ce13d5789e.jar",
+          "size": 23509,
+          "sha512": "e439302faf7346391f38638de31eabb763c346a9ab67697604c5107a0ae1ce21de4b58fe18c7be0eb1fa730aac166230dd08c1ce60999fef0be52d0f7fa3657c",
+          "sha256": "8b20fbcf81785e7f32ce5a917e014a6ec318eaef12edd6b29e84576e3876df20",
+          "sha1": "5325f887d764bdde1b64e3b40eb5e6969360ca72",
+          "md5": "ae84fceeddbb32272af49c04391ce4d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-key-mapping-api-v1-2.0.5+ce13d5789e.jar",
+          "url": "fabric-key-mapping-api-v1-2.0.5+ce13d5789e.jar",
+          "size": 23509,
+          "sha512": "e439302faf7346391f38638de31eabb763c346a9ab67697604c5107a0ae1ce21de4b58fe18c7be0eb1fa730aac166230dd08c1ce60999fef0be52d0f7fa3657c",
+          "sha256": "8b20fbcf81785e7f32ce5a917e014a6ec318eaef12edd6b29e84576e3876df20",
+          "sha1": "5325f887d764bdde1b64e3b40eb5e6969360ca72",
+          "md5": "ae84fceeddbb32272af49c04391ce4d7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-key-mapping-api-v1-2.0.5+ce13d5789e-sources.jar",
+          "url": "fabric-key-mapping-api-v1-2.0.5+ce13d5789e-sources.jar",
+          "size": 12461,
+          "sha512": "95020bec2adbdd53232b4b7f865c223374e1479bc3fd053ce02f884747bc3fc7fa19df157813621356285f3ea4abf3148402b4e3d0141081c2917793abf87b59",
+          "sha256": "f2c183be2934d5ce9c20b691b13fd238e8cafcc32610cbae4b55afc2d222ce9d",
+          "sha1": "464f6cc6698729bd6ea222f91be82778f4883aba",
+          "md5": "25b13ff8607d1e7bbf053199a8c33ce9"
+        }
+      ]
+    }
+  ]
+}

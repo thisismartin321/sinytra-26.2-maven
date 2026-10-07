@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-serialization-api-v1",
+    "version": "2.0.4+877e9f519e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-serialization-api-v1-2.0.4+877e9f519e.jar",
+          "url": "fabric-serialization-api-v1-2.0.4+877e9f519e.jar",
+          "size": 26712,
+          "sha512": "7b5ccb0706f51f5ea5dc95e6e3521745c01a996f2849142dbb792a0e363cfe5b015d90139fdabc113a3c2ce4584da3c8fd23e697e56de6fb5082adce1cfa8a1a",
+          "sha256": "5d21d85ede669b5a2638d3c9ef889229e6d72490128591c557fb1793c1003dd2",
+          "sha1": "0311700de70936d2631666e82b856d274a26be45",
+          "md5": "60bfb353360ec1e493df05b53c45b771"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-serialization-api-v1-2.0.4+877e9f519e.jar",
+          "url": "fabric-serialization-api-v1-2.0.4+877e9f519e.jar",
+          "size": 26712,
+          "sha512": "7b5ccb0706f51f5ea5dc95e6e3521745c01a996f2849142dbb792a0e363cfe5b015d90139fdabc113a3c2ce4584da3c8fd23e697e56de6fb5082adce1cfa8a1a",
+          "sha256": "5d21d85ede669b5a2638d3c9ef889229e6d72490128591c557fb1793c1003dd2",
+          "sha1": "0311700de70936d2631666e82b856d274a26be45",
+          "md5": "60bfb353360ec1e493df05b53c45b771"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-serialization-api-v1-2.0.4+877e9f519e-accesstransformer.cfg",
+          "url": "fabric-serialization-api-v1-2.0.4+877e9f519e-accesstransformer.cfg",
+          "size": 0,
+          "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    },
+    {
+      "name": "interfaceInjectionDataElements",
+      "attributes": {
+        "org.gradle.category": "interfaceinjection"
+      },
+      "files": [
+        {
+          "name": "fabric-serialization-api-v1-2.0.4+877e9f519e-interfaceinjection.json",
+          "url": "fabric-serialization-api-v1-2.0.4+877e9f519e-interfaceinjection.json",
+          "size": 258,
+          "sha512": "10519ece25bc2e56409c79627b1f98c52ef1a2e43c7b13a89129f7f3ebe1b4cba8dc854448dffbb6c6c387677645caea2e3adb19f8c72ef7467f18f3974eb615",
+          "sha256": "7c11f8a182f920d9de45797b7d7bbfb5afcc7e9d9a72ba589b3e4d60d354d7c8",
+          "sha1": "32bf2191c8df30d7b9457147899aa2eaf1e98263",
+          "md5": "41475263e84a279044ebbd56f872e3d6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-serialization-api-v1-2.0.4+877e9f519e-sources.jar",
+          "url": "fabric-serialization-api-v1-2.0.4+877e9f519e-sources.jar",
+          "size": 14351,
+          "sha512": "92fea90d30401a8b3308948d24ad902648c2bcced5cb4b43ed812ea22608ff826e47476053c063d0d28b725cfb90ab901ab83dfce0de2be1f2cd94e81510b76b",
+          "sha256": "dbef839074aad39c51b2833f065bef6866b362cce867386b59a77da0b35e2f4a",
+          "sha1": "280d83e46943ccae36ad9869908b8252977899cc",
+          "md5": "27867bec5eedee783fe1f1ce1453fc5b"
+        }
+      ]
+    }
+  ]
+}

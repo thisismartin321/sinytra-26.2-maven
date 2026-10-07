@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-menu-api-v1",
+    "version": "2.0.16+445199e59e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-registry-sync-v0",
+          "version": {
+            "requires": "7.1.0+d89c76349e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-menu-api-v1-2.0.16+445199e59e.jar",
+          "url": "fabric-menu-api-v1-2.0.16+445199e59e.jar",
+          "size": 23663,
+          "sha512": "044488f3be7d57b19d544b49e1a7f309bcaa4964d26e04e458ba0b036dba1fd593d59fb4114a1769fd1709166b59f2ecaa3626b487e4b5b365997728fc25b1ff",
+          "sha256": "453d1cad6534d390ede30cc52b1fcd2537c0a057f0bfe54cfb5444de824c76ef",
+          "sha1": "cb55459c24998f34d83d29a3e04b7da0622f4661",
+          "md5": "a1ada056564df61bf58b7e0fc84b25c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-registry-sync-v0",
+          "version": {
+            "requires": "7.1.0+d89c76349e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-menu-api-v1-2.0.16+445199e59e.jar",
+          "url": "fabric-menu-api-v1-2.0.16+445199e59e.jar",
+          "size": 23663,
+          "sha512": "044488f3be7d57b19d544b49e1a7f309bcaa4964d26e04e458ba0b036dba1fd593d59fb4114a1769fd1709166b59f2ecaa3626b487e4b5b365997728fc25b1ff",
+          "sha256": "453d1cad6534d390ede30cc52b1fcd2537c0a057f0bfe54cfb5444de824c76ef",
+          "sha1": "cb55459c24998f34d83d29a3e04b7da0622f4661",
+          "md5": "a1ada056564df61bf58b7e0fc84b25c3"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-menu-api-v1-2.0.16+445199e59e-accesstransformer.cfg",
+          "url": "fabric-menu-api-v1-2.0.16+445199e59e-accesstransformer.cfg",
+          "size": 684,
+          "sha512": "59af89ef8a9ebbb2d85d5c7d144da05b72f5bd8831fdcd87dfaf20be618219eed6aa1e41f959467d6427f8ccc33d5bbe1af451d8413b46b5d53f11232c012b08",
+          "sha256": "d4ac92753b3ea76f33995b4b5ff9869bc81d47616189868c6d5ebb75ef72800e",
+          "sha1": "0d5239162fab53c59cc544d5164c925b9faa47d7",
+          "md5": "57d99b30572f5b9f26b13869a88aed66"
+        }
+      ]
+    },
+    {
+      "name": "interfaceInjectionDataElements",
+      "attributes": {
+        "org.gradle.category": "interfaceinjection"
+      },
+      "files": [
+        {
+          "name": "fabric-menu-api-v1-2.0.16+445199e59e-interfaceinjection.json",
+          "url": "fabric-menu-api-v1-2.0.16+445199e59e-interfaceinjection.json",
+          "size": 104,
+          "sha512": "b7d58ecc60d7ea28b9776e40256cce8556b4ff6fd1db19f2043de41c97c433fd0b6a5a04d5226b92bce41c5bd16ab3182cd8d9bfe8c7a09bc96f597ba7000cfc",
+          "sha256": "469df4c80d7f576724a178a2f4af75d32a79d85efe569e4bf3f6f16e09b1854f",
+          "sha1": "93881360f3d1f65d9fd930b664697f66872c7bc3",
+          "md5": "a21a73ace23817770b2b12779b567a22"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-menu-api-v1-2.0.16+445199e59e-sources.jar",
+          "url": "fabric-menu-api-v1-2.0.16+445199e59e-sources.jar",
+          "size": 13240,
+          "sha512": "5f4f866739a556e8e179a05afe3546063db9c30e8f3a133cc23170edb739f040d505510c4e2db789548d96d7cf2a271f58cfbd9bb0949561119a5be788b53452",
+          "sha256": "a54a69ae139608faf2b6ca297f21cbedd5c0a82e110e07d639af132e917c8695",
+          "sha1": "02614c06cad11e564252efe257bd84aa7a4b147b",
+          "md5": "f53b6d6e7c210e8e02267cbcdc415b80"
+        }
+      ]
+    }
+  ]
+}

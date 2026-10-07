@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.sinytra.forgified-fabric-api</groupId>
+  <artifactId>fabric-biome-api-v1</artifactId>
+  <versioning>
+    <latest>18.0.6+5f5192e39e</latest>
+    <release>18.0.6+5f5192e39e</release>
+    <versions>
+      <version>18.0.6+5f5192e39e</version>
+    </versions>
+    <lastUpdated>20261004212824</lastUpdated>
+  </versioning>
+</metadata>

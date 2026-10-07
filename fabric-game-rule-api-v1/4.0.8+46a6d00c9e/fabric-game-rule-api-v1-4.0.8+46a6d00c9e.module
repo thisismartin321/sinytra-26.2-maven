@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-game-rule-api-v1",
+    "version": "4.0.8+46a6d00c9e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e.jar",
+          "url": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e.jar",
+          "size": 57601,
+          "sha512": "98af3d409df9aa734bec80d41389e64b123069c1599f45444356882c9142a34c23022f316911f4b973331dcf1b5439472119124fb08bb8c66d5fe839bf393517",
+          "sha256": "096d0a9a95b77c2b9dd2e16ce3faaf2f974f0b3445ca6b81751268d72207c103",
+          "sha1": "2d95ad8f9c331df8090c0f9f442ff47b291d47d9",
+          "md5": "bd1a8ebbb9acaf86e527403859c36a8e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e.jar",
+          "url": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e.jar",
+          "size": 57601,
+          "sha512": "98af3d409df9aa734bec80d41389e64b123069c1599f45444356882c9142a34c23022f316911f4b973331dcf1b5439472119124fb08bb8c66d5fe839bf393517",
+          "sha256": "096d0a9a95b77c2b9dd2e16ce3faaf2f974f0b3445ca6b81751268d72207c103",
+          "sha1": "2d95ad8f9c331df8090c0f9f442ff47b291d47d9",
+          "md5": "bd1a8ebbb9acaf86e527403859c36a8e"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e-accesstransformer.cfg",
+          "url": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e-accesstransformer.cfg",
+          "size": 260,
+          "sha512": "39f4205b5b5583c8ac0eb8eab04cb3325de824faf14c22b77ff302917a159a2263508ac54d538d3c20d0bc77e9f8f2903bb43946ac8abbc018466f432f758c79",
+          "sha256": "8250f83022afe7c83acb37e5b166310309c5de302b261ec92ddd737b8ec3f165",
+          "sha1": "5202f317789a05f0a5b1b791eac22742fa89df1e",
+          "md5": "305ff5f4c7fff79d534448a5989611dd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e-sources.jar",
+          "url": "fabric-game-rule-api-v1-4.0.8+46a6d00c9e-sources.jar",
+          "size": 31495,
+          "sha512": "1780d3a5bab6263e753c68d6eff0c83492ce2c95885eb419f46cf9d7fa70daf71d4c528c304e60e1c5ae727b537087a03332a33288ddb9691f69a039088c0c14",
+          "sha256": "052f2535e8ed301cafd173ed8e5612ee01fc3c382a7804a0a95b9f4bed66401e",
+          "sha1": "376367a8f0878a53d1bbaddacbb85cd42f740483",
+          "md5": "021969bea055a29d32b203ab0dbe021d"
+        }
+      ]
+    }
+  ]
+}

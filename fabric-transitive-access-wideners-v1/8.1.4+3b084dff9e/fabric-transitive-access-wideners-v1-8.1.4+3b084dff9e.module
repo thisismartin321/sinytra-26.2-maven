@@ -1,0 +1,106 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-transitive-access-wideners-v1",
+    "version": "8.1.4+3b084dff9e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e.jar",
+          "url": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e.jar",
+          "size": 18599,
+          "sha512": "b74a1623dd2ad2aa558b6ff98e96895e36fa6a2f9cf76ee58b21593c815b72747cfbb1294704ff828cf51dc45567d08276dec6a5d1a472d82c4a5fd39958820a",
+          "sha256": "b9fcd35bd4700d748f6d21049fe4fd08c7690c520854ddd13997e92d460771ad",
+          "sha1": "36ce20058b1911d7ac48c41f4cfcd6054551653a",
+          "md5": "c68d91733180985195850541dc0f5b67"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e.jar",
+          "url": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e.jar",
+          "size": 18599,
+          "sha512": "b74a1623dd2ad2aa558b6ff98e96895e36fa6a2f9cf76ee58b21593c815b72747cfbb1294704ff828cf51dc45567d08276dec6a5d1a472d82c4a5fd39958820a",
+          "sha256": "b9fcd35bd4700d748f6d21049fe4fd08c7690c520854ddd13997e92d460771ad",
+          "sha1": "36ce20058b1911d7ac48c41f4cfcd6054551653a",
+          "md5": "c68d91733180985195850541dc0f5b67"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e-accesstransformer.cfg",
+          "url": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e-accesstransformer.cfg",
+          "size": 49470,
+          "sha512": "81ad037332ed43229b348378a2096d8f6d59ffb94e8196d5cfa440a1ed2afe7597938d341a7bf77e480c7db05d3101729cdb253622f35c19af51a51a607c5a42",
+          "sha256": "01a04e09b4bb1bf6a193202edec6fdfb49c53f8bf11772d8bc0f15559e9bd4ad",
+          "sha1": "8ad0a3a847112856f7071d0adf2f4bda424ef4ac",
+          "md5": "c66600959c4dc1165db0fd199e3e08f8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e-sources.jar",
+          "url": "fabric-transitive-access-wideners-v1-8.1.4+3b084dff9e-sources.jar",
+          "size": 8123,
+          "sha512": "4b5926df844d4b232b0b0db4145c7f961af8f0899c92a025219b41e99a10072ab0998eecb4561610443629c09510f919a0f802a20d3f2a9b6a615c98324139ff",
+          "sha256": "125edc64d3842de00a09e8e58c2f2a933d60564467767dfd61d2911d4a05f607",
+          "sha1": "c171a0f328d8ae46890d4251dac2ed553a740196",
+          "md5": "f69231c37423815b6521ed12885b595f"
+        }
+      ]
+    }
+  ]
+}

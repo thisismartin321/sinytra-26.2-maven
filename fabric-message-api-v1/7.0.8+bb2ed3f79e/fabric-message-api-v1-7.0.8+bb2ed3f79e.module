@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-message-api-v1",
+    "version": "7.0.8+bb2ed3f79e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-message-api-v1-7.0.8+bb2ed3f79e.jar",
+          "url": "fabric-message-api-v1-7.0.8+bb2ed3f79e.jar",
+          "size": 46235,
+          "sha512": "759e15807808b978cb20543796ca9eeab6b6241e0499c2c0f7a461709b1f2286588da0111b37389c615920358e5b692b0bff12f2d8a95ab9165f83924a1a118f",
+          "sha256": "2bfdb56ea01e3e045c54203652f31e3f12e64a39738d408a53505e0ddf5bbbe9",
+          "sha1": "2ffb26fc07c064614c81b984896647c8c60b0adf",
+          "md5": "59eacbf9c1e8fe8790a1c296f13c3f4f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-message-api-v1-7.0.8+bb2ed3f79e.jar",
+          "url": "fabric-message-api-v1-7.0.8+bb2ed3f79e.jar",
+          "size": 46235,
+          "sha512": "759e15807808b978cb20543796ca9eeab6b6241e0499c2c0f7a461709b1f2286588da0111b37389c615920358e5b692b0bff12f2d8a95ab9165f83924a1a118f",
+          "sha256": "2bfdb56ea01e3e045c54203652f31e3f12e64a39738d408a53505e0ddf5bbbe9",
+          "sha1": "2ffb26fc07c064614c81b984896647c8c60b0adf",
+          "md5": "59eacbf9c1e8fe8790a1c296f13c3f4f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-message-api-v1-7.0.8+bb2ed3f79e-sources.jar",
+          "url": "fabric-message-api-v1-7.0.8+bb2ed3f79e-sources.jar",
+          "size": 19834,
+          "sha512": "3c50d2beffd8c6c272f276389da55af9f2241c5c8270cd38a0f088b0c2a6277286abb116c90da670a46562483d7d035ffd0351bbcef6cc98fd17be879910ed64",
+          "sha256": "98b0f4e435f42548a3ec0116a43ea9b6602607680d458722fd0e669cf17302c0",
+          "sha1": "2846981d99ee7f07099061f46edd13d119523c42",
+          "md5": "7414d858202c0fc4852ecb40b2f11c97"
+        }
+      ]
+    }
+  ]
+}

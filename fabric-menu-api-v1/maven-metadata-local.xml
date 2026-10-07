@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.sinytra.forgified-fabric-api</groupId>
+  <artifactId>fabric-menu-api-v1</artifactId>
+  <versioning>
+    <latest>2.0.16+445199e59e</latest>
+    <release>2.0.16+445199e59e</release>
+    <versions>
+      <version>2.0.16+445199e59e</version>
+    </versions>
+    <lastUpdated>20261004212824</lastUpdated>
+  </versioning>
+</metadata>

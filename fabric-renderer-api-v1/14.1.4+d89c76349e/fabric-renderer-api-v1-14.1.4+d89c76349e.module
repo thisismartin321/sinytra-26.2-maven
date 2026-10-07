@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-renderer-api-v1",
+    "version": "14.1.4+d89c76349e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-rendering-v1",
+          "version": {
+            "requires": "25.3.3+d89c76349e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-transitive-access-wideners-v1",
+          "version": {
+            "requires": "8.1.4+3b084dff9e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-renderer-api-v1-14.1.4+d89c76349e.jar",
+          "url": "fabric-renderer-api-v1-14.1.4+d89c76349e.jar",
+          "size": 120822,
+          "sha512": "309362b15e987ba5575904c495d32df98ff9bf6b2389d8dd3445fd2e6578e36480ece78a5087dd4d584593bb4a416f671bb4106c0d85dc201cfb4690f3ba2548",
+          "sha256": "436d06b33c4345981457c9aaef9ae91df06241c4f5a8e6b65c32b711582ad6a0",
+          "sha1": "28ff7922f7e2d4ce72b7949291f4e75ed1471e86",
+          "md5": "5823d94051348e7ecaf54c8a0acf2914"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-rendering-v1",
+          "version": {
+            "requires": "25.3.3+d89c76349e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-transitive-access-wideners-v1",
+          "version": {
+            "requires": "8.1.4+3b084dff9e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-renderer-api-v1-14.1.4+d89c76349e.jar",
+          "url": "fabric-renderer-api-v1-14.1.4+d89c76349e.jar",
+          "size": 120822,
+          "sha512": "309362b15e987ba5575904c495d32df98ff9bf6b2389d8dd3445fd2e6578e36480ece78a5087dd4d584593bb4a416f671bb4106c0d85dc201cfb4690f3ba2548",
+          "sha256": "436d06b33c4345981457c9aaef9ae91df06241c4f5a8e6b65c32b711582ad6a0",
+          "sha1": "28ff7922f7e2d4ce72b7949291f4e75ed1471e86",
+          "md5": "5823d94051348e7ecaf54c8a0acf2914"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-renderer-api-v1-14.1.4+d89c76349e-accesstransformer.cfg",
+          "url": "fabric-renderer-api-v1-14.1.4+d89c76349e-accesstransformer.cfg",
+          "size": 468,
+          "sha512": "375178a523c7fec81bc4835725ee134cabe546c003f5d000f9d0e5e1814ecffab211ab5df756151c25b44d283ddf774320c2b7147b2fb3ff54053772fa556272",
+          "sha256": "ef8692a71392edc94c17c8ed90fff08c75845c6c4778dc252a819d6494e0bda5",
+          "sha1": "548f234b4da1b0228d31c760d628a712604a6859",
+          "md5": "a3eaacaa19dd31a7ac69f141c32a3157"
+        }
+      ]
+    },
+    {
+      "name": "interfaceInjectionDataElements",
+      "attributes": {
+        "org.gradle.category": "interfaceinjection"
+      },
+      "files": [
+        {
+          "name": "fabric-renderer-api-v1-14.1.4+d89c76349e-interfaceinjection.json",
+          "url": "fabric-renderer-api-v1-14.1.4+d89c76349e-interfaceinjection.json",
+          "size": 1368,
+          "sha512": "df0a2b6bbc3901e56617ee9f4f8212124c9efe227920bfab8f71de1655a0027f4e59f7994b18de0031b2aa215fe042c0824ac8d801cbe26fe4fbce69fa00282b",
+          "sha256": "5ec573873070439e25ab69ed6709192f7671a2732171ee89959adea23dc99ccc",
+          "sha1": "ba2a19626ce5cc931c3e7e34e85691d633b0f942",
+          "md5": "b6b9ee5674407d75788d720f6b85b811"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-renderer-api-v1-14.1.4+d89c76349e-sources.jar",
+          "url": "fabric-renderer-api-v1-14.1.4+d89c76349e-sources.jar",
+          "size": 104825,
+          "sha512": "f50ac3596da4a712c9f4041b1421770bc46f4ec73383aee436eee560783ab7d101b4ce631200eb71fdd7fef74f3e581ac5abfd208aacca649d60d94ff9ff4af9",
+          "sha256": "a37f12f877c542bed027338c275ed277c23068a5dc17ea7acaf7f3be03dfa9e9",
+          "sha1": "bc2953580276a0f56b93fe4b3252f96774fadad3",
+          "md5": "0eda29b36634d672bff88563bee200ea"
+        }
+      ]
+    }
+  ]
+}

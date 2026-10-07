@@ -1,0 +1,150 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-renderer-indigo",
+    "version": "9.1.4+dfc0a2a19e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-renderer-api-v1",
+          "version": {
+            "requires": "14.1.4+d89c76349e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-rendering-v1",
+          "version": {
+            "requires": "25.3.3+d89c76349e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-renderer-indigo-9.1.4+dfc0a2a19e.jar",
+          "url": "fabric-renderer-indigo-9.1.4+dfc0a2a19e.jar",
+          "size": 97142,
+          "sha512": "eb54764d215b3153890d40008602b120bcc591c46f7268c5806e3af94644821c4d16f8eec4ab209b874ee182bb4b8d91aa10cd6827a8722b3d7f008d2905c7d1",
+          "sha256": "c9a8fbce0467705998a1ae1803081afa03659dfd7ce799f54e9b0cce3b33b5b2",
+          "sha1": "876c9c2ede8959098772e060a9a5bd439e6ceb6a",
+          "md5": "1a866722c334b23bf10124687240cef9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-renderer-api-v1",
+          "version": {
+            "requires": "14.1.4+d89c76349e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-rendering-v1",
+          "version": {
+            "requires": "25.3.3+d89c76349e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-renderer-indigo-9.1.4+dfc0a2a19e.jar",
+          "url": "fabric-renderer-indigo-9.1.4+dfc0a2a19e.jar",
+          "size": 97142,
+          "sha512": "eb54764d215b3153890d40008602b120bcc591c46f7268c5806e3af94644821c4d16f8eec4ab209b874ee182bb4b8d91aa10cd6827a8722b3d7f008d2905c7d1",
+          "sha256": "c9a8fbce0467705998a1ae1803081afa03659dfd7ce799f54e9b0cce3b33b5b2",
+          "sha1": "876c9c2ede8959098772e060a9a5bd439e6ceb6a",
+          "md5": "1a866722c334b23bf10124687240cef9"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-renderer-indigo-9.1.4+dfc0a2a19e-accesstransformer.cfg",
+          "url": "fabric-renderer-indigo-9.1.4+dfc0a2a19e-accesstransformer.cfg",
+          "size": 0,
+          "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-renderer-indigo-9.1.4+dfc0a2a19e-sources.jar",
+          "url": "fabric-renderer-indigo-9.1.4+dfc0a2a19e-sources.jar",
+          "size": 58000,
+          "sha512": "f599fb89c723fc2dfa451cde5f593439d4ca2d8a81e9bdfcc7eccef7688fffd099ce515621ff47df9908db0779339ea7042cc4df885a7be2fb02012429365468",
+          "sha256": "7ce5e899de9194a7cbf5c195b1816fafce467f04422e1a53fc819ec4da73989a",
+          "sha1": "98af300d2e05ecf293197aae9ef6e665a423bd29",
+          "md5": "c5abbb552adbfacec53c70ca9f28672a"
+        }
+      ]
+    }
+  ]
+}

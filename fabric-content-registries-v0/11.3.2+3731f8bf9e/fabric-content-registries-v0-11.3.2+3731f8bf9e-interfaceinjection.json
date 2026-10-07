@@ -1,0 +1,8 @@
+{
+  "net/minecraft/world/item/alchemy/PotionBrewing$Builder": [
+    "net/fabricmc/fabric/api/registry/FabricPotionBrewingBuilder"
+  ],
+  "net/minecraft/world/entity/Entity": [
+    "net/fabricmc/fabric/api/registry/fluid/EntityFluidExtension"
+  ]
+}

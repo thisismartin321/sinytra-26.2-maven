@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-data-generation-api-v1",
+    "version": "25.5.1+3245a3939e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-convention-tags-v2",
+          "version": {
+            "requires": "4.7.1+33362aa29e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-recipe-api-v1",
+          "version": {
+            "requires": "9.0.21+5bc850709e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-registry-sync-v0",
+          "version": {
+            "requires": "7.1.0+d89c76349e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-resource-conditions-api-v1",
+          "version": {
+            "requires": "6.1.0+0404dc439e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-tag-api-v1",
+          "version": {
+            "requires": "2.1.4+33362aa29e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-data-generation-api-v1-25.5.1+3245a3939e.jar",
+          "url": "fabric-data-generation-api-v1-25.5.1+3245a3939e.jar",
+          "size": 146565,
+          "sha512": "513e9a97a15e7e044719a262964795960ae5f78aba5c8dd601ba04d4bee6cac193d697c48d5b7c5b6b8ec53c909cb94bbecfdc437126cb4ba53b37e6b9ed2a76",
+          "sha256": "6528230c74f723f82375a9b7d7b6439e865ff46708aa40d9312c152570f06c12",
+          "sha1": "666c76048d2b7aaf4010b62fe7d74debcd94e292",
+          "md5": "591b5f3aaaa4d16da9233f135284f17a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-convention-tags-v2",
+          "version": {
+            "requires": "4.7.1+33362aa29e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-recipe-api-v1",
+          "version": {
+            "requires": "9.0.21+5bc850709e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-registry-sync-v0",
+          "version": {
+            "requires": "7.1.0+d89c76349e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-resource-conditions-api-v1",
+          "version": {
+            "requires": "6.1.0+0404dc439e"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-tag-api-v1",
+          "version": {
+            "requires": "2.1.4+33362aa29e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-data-generation-api-v1-25.5.1+3245a3939e.jar",
+          "url": "fabric-data-generation-api-v1-25.5.1+3245a3939e.jar",
+          "size": 146565,
+          "sha512": "513e9a97a15e7e044719a262964795960ae5f78aba5c8dd601ba04d4bee6cac193d697c48d5b7c5b6b8ec53c909cb94bbecfdc437126cb4ba53b37e6b9ed2a76",
+          "sha256": "6528230c74f723f82375a9b7d7b6439e865ff46708aa40d9312c152570f06c12",
+          "sha1": "666c76048d2b7aaf4010b62fe7d74debcd94e292",
+          "md5": "591b5f3aaaa4d16da9233f135284f17a"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-data-generation-api-v1-25.5.1+3245a3939e-accesstransformer.cfg",
+          "url": "fabric-data-generation-api-v1-25.5.1+3245a3939e-accesstransformer.cfg",
+          "size": 70046,
+          "sha512": "28645ebb0619ea2521166ac0883700e1c427cbdbd9c05e1c18c17016370cc2f7e4200c8a460a8132592cea3c02b1134ea50b458fad987b579ff58c197334cbf5",
+          "sha256": "70c100eb84a5813b5de30cf18621e43f8c85a99f9e65f61f9a795c8145406d63",
+          "sha1": "eaa80215add4c6b314c79d3ac915f534746a20ff",
+          "md5": "29f2cb4ff62a1ee38d0a2cc132002fa0"
+        }
+      ]
+    },
+    {
+      "name": "interfaceInjectionDataElements",
+      "attributes": {
+        "org.gradle.category": "interfaceinjection"
+      },
+      "files": [
+        {
+          "name": "fabric-data-generation-api-v1-25.5.1+3245a3939e-interfaceinjection.json",
+          "url": "fabric-data-generation-api-v1-25.5.1+3245a3939e-interfaceinjection.json",
+          "size": 639,
+          "sha512": "568c2fcf2fb860f95d35c3669887bb3d89defa7e0398f00d3ef9d2616ce50584d01c59cf7f457849920c907b0df38bf1fb10842e47b041dfcb7c52167ae668f5",
+          "sha256": "74ceed05076068798bf6479db306ad7d68c704f100f4320e17cd8d0573ffffda",
+          "sha1": "f6cd8b740a6cb9885cb0f189b839193925d3c55a",
+          "md5": "ef1f9ff8ec685b3c4aac0bf4bd0774c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-data-generation-api-v1-25.5.1+3245a3939e-sources.jar",
+          "url": "fabric-data-generation-api-v1-25.5.1+3245a3939e-sources.jar",
+          "size": 93298,
+          "sha512": "68bb8152bba80367c1430e5ef6e21784053cb963d2578cf7127c327b5c04ac69fcae600aa597948a6bd96cdec89ccb45ebee9a860e4f5f6c34b4f3e4c763b368",
+          "sha256": "12e21b4eeb7dee20c195e8236c4c3ffddfe2af61f8ea57f7616b2a084d786393",
+          "sha1": "65baa883868bf47986556ecd9df256ca0ab2ee63",
+          "md5": "a3f14cded1fa291333bb890264efd17b"
+        }
+      ]
+    }
+  ]
+}

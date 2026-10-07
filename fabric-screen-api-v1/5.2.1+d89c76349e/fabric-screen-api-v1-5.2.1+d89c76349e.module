@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-screen-api-v1",
+    "version": "5.2.1+d89c76349e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-screen-api-v1-5.2.1+d89c76349e.jar",
+          "url": "fabric-screen-api-v1-5.2.1+d89c76349e.jar",
+          "size": 64852,
+          "sha512": "b0c893ada5734a2c63362cd12b9690d321d220f5a72be09b2744051e5983e8de7acd0e1edcabd0f9c1546ba0a6554bde2a48c2f9d8b2e946e2daaa9dc1432934",
+          "sha256": "e421561c16bbd1a076187c23deedb2d35ea9f99329813d46eed68d1c38282637",
+          "sha1": "9bcddadff694b91cc836c161543b450bfe8c9893",
+          "md5": "fbf71b69b81c6539508b24ec820e5ab9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-screen-api-v1-5.2.1+d89c76349e.jar",
+          "url": "fabric-screen-api-v1-5.2.1+d89c76349e.jar",
+          "size": 64852,
+          "sha512": "b0c893ada5734a2c63362cd12b9690d321d220f5a72be09b2744051e5983e8de7acd0e1edcabd0f9c1546ba0a6554bde2a48c2f9d8b2e946e2daaa9dc1432934",
+          "sha256": "e421561c16bbd1a076187c23deedb2d35ea9f99329813d46eed68d1c38282637",
+          "sha1": "9bcddadff694b91cc836c161543b450bfe8c9893",
+          "md5": "fbf71b69b81c6539508b24ec820e5ab9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-screen-api-v1-5.2.1+d89c76349e-sources.jar",
+          "url": "fabric-screen-api-v1-5.2.1+d89c76349e-sources.jar",
+          "size": 29194,
+          "sha512": "3a22f4e64d3692f7868f7c50c3653533ea43bda881b5e8374ad501319a3a9ea7ec171579d0e8c7a442a9926836144a969634ff20130012cf407359674fe759c5",
+          "sha256": "87f1b71843d082389fc1287fe02e20cea2239b856732ac8e476e0e915758b92c",
+          "sha1": "b6d96aebf5e726b2bd65cab80cf84004c2aa70bc",
+          "md5": "833eef8a4ddd741b78e2572f04e79bfe"
+        }
+      ]
+    }
+  ]
+}

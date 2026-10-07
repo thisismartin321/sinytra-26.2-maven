@@ -1,0 +1,122 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-rendering-fluids-v1",
+    "version": "6.0.4+2252655c9e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-rendering-fluids-v1-6.0.4+2252655c9e.jar",
+          "url": "fabric-rendering-fluids-v1-6.0.4+2252655c9e.jar",
+          "size": 28984,
+          "sha512": "d040b4481371560db37faaf1bd7d562b66fe945b7b7e2a7c06d10b953953a65940d02b0268aeba03511674d5b368ab912bda67acc80d0c5ae633fc7ada459224",
+          "sha256": "24c007fdcb1d65daf52d68a5455f32b1bc088ae2f6755d14994217bc865a37dc",
+          "sha1": "10147b7eccc229b30b5e3b8832d0aa8a9c151c4f",
+          "md5": "651cdc43d94b4108dbc8acf59a8929fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        },
+        {
+          "group": "org.sinytra.forgified-fabric-api",
+          "module": "fabric-api-base",
+          "version": {
+            "requires": "2.0.4+d41ec0009e"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-rendering-fluids-v1-6.0.4+2252655c9e.jar",
+          "url": "fabric-rendering-fluids-v1-6.0.4+2252655c9e.jar",
+          "size": 28984,
+          "sha512": "d040b4481371560db37faaf1bd7d562b66fe945b7b7e2a7c06d10b953953a65940d02b0268aeba03511674d5b368ab912bda67acc80d0c5ae633fc7ada459224",
+          "sha256": "24c007fdcb1d65daf52d68a5455f32b1bc088ae2f6755d14994217bc865a37dc",
+          "sha1": "10147b7eccc229b30b5e3b8832d0aa8a9c151c4f",
+          "md5": "651cdc43d94b4108dbc8acf59a8929fa"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-rendering-fluids-v1-6.0.4+2252655c9e-accesstransformer.cfg",
+          "url": "fabric-rendering-fluids-v1-6.0.4+2252655c9e-accesstransformer.cfg",
+          "size": 69,
+          "sha512": "2a3fb9ccf788403c45daa4a4140b8dabfba1060ee9b9ed69dca0d5bab93b14935733f8f4694733c38f7cea23e684848be2624ab3ec22095c65bde8d41650e14d",
+          "sha256": "a8af74e3deddd2f1ebfd6bea817b88d0d4bb4052b267f4e92dfd9e896cddc149",
+          "sha1": "e309148c6e854549cc015cc18a3ddc627750f0be",
+          "md5": "fc4a655c4fdbd987369e37c7f293a459"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-rendering-fluids-v1-6.0.4+2252655c9e-sources.jar",
+          "url": "fabric-rendering-fluids-v1-6.0.4+2252655c9e-sources.jar",
+          "size": 16972,
+          "sha512": "219eb23bfcc756e68adb9acdbc27b3026d979a79195bc95263d46109a9133ab7e137d9a1745917963f2ccf3dcd7263aeb586aadfe41d1495ec833b2dab6415f0",
+          "sha256": "374dcdace8ae022c7090aab5707f0a2e1e59953b3e1269e1b2df8483ecd7e212",
+          "sha1": "5fa692981120377f4eb6414a108504b67577deca",
+          "md5": "3b014a82518ad3bafbeb3e48234eb02f"
+        }
+      ]
+    }
+  ]
+}

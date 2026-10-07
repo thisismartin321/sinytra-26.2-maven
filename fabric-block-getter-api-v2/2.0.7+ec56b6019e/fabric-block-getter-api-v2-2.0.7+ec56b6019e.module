@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.forgified-fabric-api",
+    "module": "fabric-block-getter-api-v2",
+    "version": "2.0.7+ec56b6019e",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fabric-block-getter-api-v2-2.0.7+ec56b6019e.jar",
+          "url": "fabric-block-getter-api-v2-2.0.7+ec56b6019e.jar",
+          "size": 26869,
+          "sha512": "5b1ec97783378158011ad5a980a9158e832841f11e3d819095ce7a457b094873a4f144d49ba1bc71f5d1a2344771cb9c4e8bfb8853ca4717d0cc04a6e96ea4f5",
+          "sha256": "92cb51906b2983f05e8fafe009c3dfcef50720777223bd673c73106083776b0e",
+          "sha1": "085eb3ddb24b18c507987269f30d59b6b44acd59",
+          "md5": "986f727e1303e854e5be475dc53c17bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.83+0.19.3+26.1.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fabric-block-getter-api-v2-2.0.7+ec56b6019e.jar",
+          "url": "fabric-block-getter-api-v2-2.0.7+ec56b6019e.jar",
+          "size": 26869,
+          "sha512": "5b1ec97783378158011ad5a980a9158e832841f11e3d819095ce7a457b094873a4f144d49ba1bc71f5d1a2344771cb9c4e8bfb8853ca4717d0cc04a6e96ea4f5",
+          "sha256": "92cb51906b2983f05e8fafe009c3dfcef50720777223bd673c73106083776b0e",
+          "sha1": "085eb3ddb24b18c507987269f30d59b6b44acd59",
+          "md5": "986f727e1303e854e5be475dc53c17bc"
+        }
+      ]
+    },
+    {
+      "name": "accessTransformersElements",
+      "attributes": {
+        "org.gradle.category": "accesstransformer"
+      },
+      "files": [
+        {
+          "name": "fabric-block-getter-api-v2-2.0.7+ec56b6019e-accesstransformer.cfg",
+          "url": "fabric-block-getter-api-v2-2.0.7+ec56b6019e-accesstransformer.cfg",
+          "size": 0,
+          "sha512": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+          "md5": "d41d8cd98f00b204e9800998ecf8427e"
+        }
+      ]
+    },
+    {
+      "name": "interfaceInjectionDataElements",
+      "attributes": {
+        "org.gradle.category": "interfaceinjection"
+      },
+      "files": [
+        {
+          "name": "fabric-block-getter-api-v2-2.0.7+ec56b6019e-interfaceinjection.json",
+          "url": "fabric-block-getter-api-v2-2.0.7+ec56b6019e-interfaceinjection.json",
+          "size": 245,
+          "sha512": "66aa984175fbb1f468eb1bf8d62c398fd8d1f6e1203e4eacec3d1cfe4745923f51a94e7f2085cab8a41d14212907e966a5125976f444f5b837627cb3ba00697b",
+          "sha256": "f7d77ac88210351fe222136ef93a31c92fe734893000c8c4e6be184bfc369d72",
+          "sha1": "17659b1dcaffd4ca35caa4342fa030d35ef93d72",
+          "md5": "45fb996b9ec52b96989a905acfc31441"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fabric-block-getter-api-v2-2.0.7+ec56b6019e-sources.jar",
+          "url": "fabric-block-getter-api-v2-2.0.7+ec56b6019e-sources.jar",
+          "size": 18706,
+          "sha512": "fe46812fcd2b649cd21bc95cd09cdbf811631e348cb986d0a40d64af4fd2e2cb83b9ec4774b5e30b6f4a72095749f7ffc1c1483f333efec53b4e8405a9a35dcf",
+          "sha256": "6b57ff87b0c9aaac0e2ada69d856796797ef44ac289db2395ecf240f7435ce40",
+          "sha1": "755afd0fc4c73534b95918474a4d5fd1445a677f",
+          "md5": "6df8987aaffdcc40f7cb76a3130fca20"
+        }
+      ]
+    }
+  ]
+}
