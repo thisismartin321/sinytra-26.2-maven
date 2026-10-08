@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.sinytra.launchpad",
+    "module": "launchpad",
+    "version": "1.9.2+26.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.sinytra",
+          "module": "forgified-fabric-loader",
+          "version": {
+            "requires": "2.5.86+0.19.3+26.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "launchpad-1.9.2+26.2.jar",
+          "url": "launchpad-1.9.2+26.2.jar",
+          "size": 113115,
+          "sha512": "c63baf12be37fc57e48d6e56462d24f823b2b83a24fa971790289a87087396f204506f7a226e0ff7a59ac52a65fe0a3a980672429b73389ac675aa870ef5b971",
+          "sha256": "223084c2402cd82639496f9ee2441c353e055d1d4e5a72533fa4cfa2daf4fb09",
+          "sha1": "f884d3efa0fc952c9127ac2b3ce68bbca1636d90",
+          "md5": "39c882e88619edc8fb7965da2e4273f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "launchpad-1.9.2+26.2-full.jar",
+          "url": "launchpad-1.9.2+26.2-full.jar",
+          "size": 466741,
+          "sha512": "90de4cafd3acf6ddd6366cadb36d57562a5f25ebd5f879e5d10c75b4a41a0f6f52b3a8ccc020703d6b32abf41764fbf25132bbd84e4734931eddc0c93cd4e41e",
+          "sha256": "02366234e0b839ba9f87893038b21c41bb542971136e0fd4925e35ca2a606976",
+          "sha1": "49b2f6bb5c1aae04128b853ce22058f0afc06097",
+          "md5": "7a6a3509e23501ea08bea510532440f0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "launchpad-1.9.2+26.2-sources.jar",
+          "url": "launchpad-1.9.2+26.2-sources.jar",
+          "size": 35324,
+          "sha512": "64ad607a662477c202ebe7aee624e64ea249cbc799ac25f7ba7923d58fad29fdfe6ee1c01329f27c29d9a1927b1270de44ff420bef5d9f467f78f29b21d96f85",
+          "sha256": "4e413db97ec442ab7b6051c121129121b561df5fa1fa9e374ceffe31d16f17d7",
+          "sha1": "1e8c6d9d94df9f49e9fd891d6c03b657b0bbbec9",
+          "md5": "6bfc73e62eb1a24bedd846ae761cd142"
+        }
+      ]
+    }
+  ]
+}

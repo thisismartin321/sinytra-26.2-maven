@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.sinytra.launchpad</groupId>
+  <artifactId>launchpad</artifactId>
+  <versioning>
+    <latest>1.9.2+26.2</latest>
+    <release>1.9.2+26.2</release>
+    <versions>
+      <version>1.9.2+26.2</version>
+    </versions>
+    <lastUpdated>20261008035705</lastUpdated>
+  </versioning>
+</metadata>
